@@ -1,4 +1,4 @@
-[pyLogicFlowChart](https://pasteboard.co/IRj0Hgq.png) "pyLogicFlowChart logo"
+![pyLogicFlowChartLogo](https://pasteboard.co/IRj0Hgq.png)
 
 # pyLogicFlowChart
 pyLogicFlowChart is a static analyzer that helps create a flowchart of logical conditions in python source code, which is pruned to singular `variable of interest`
@@ -53,7 +53,7 @@ python analyzer.py -s sample.py -v interesting_variable -a list-append
 ```
 
 ### Output
-![flowchart](https://pasteboard.co/IRiUd0N.png) "Resulting Chart"
+![flowchart](https://pasteboard.co/IRiUd0N.png)
 
 ### Limitations
 The tool only checks for direct changes to the variable. It will ignore instances where condition checking is done on an interim variable, whose end result is used to populate the `variable of interest`
